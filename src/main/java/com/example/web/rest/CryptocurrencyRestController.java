@@ -34,7 +34,6 @@ public class CryptocurrencyRestController {
         return cryptoCurrencyService.getAll();
     }
 
-    //curl -d "username=Toster&symbol=SOL" http://localhost:8080/api/crypto/notify
     @PostMapping("/notify")
     public UserDto register(@RequestParam("username") String username, @RequestParam("symbol") String symbol) {
         UserDto user = new UserDto();
