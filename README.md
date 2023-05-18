@@ -3,6 +3,7 @@
 ### Technologies
 - Spring boot: 2.7.11 (dependency management: 1.1.0)
 - Spring (Data JPA, MVC)
+- Gradle: 8.0
 - H2 database
 - ModelMapper: 3.1.1
 - Lombok
